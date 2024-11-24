@@ -486,3 +486,22 @@
 2024-11-24 19:02:50,389 - ebanking -INFO - password provided
 2024-11-24 19:02:53,488 - ebanking -INFO - Login passed
 2024-11-24 19:07:17,619 - ebanking -INFO - URL is opened
+2024-11-24 19:11:52,715 - ebanking -INFO - URL is opened
+2024-11-24 19:11:52,929 - ebanking -INFO - Entered username
+2024-11-24 19:11:53,052 - ebanking -INFO - Entered password
+2024-11-24 19:11:53,875 - ebanking -INFO - Login test passed
+2024-11-24 19:11:58,462 - ebanking -INFO - user name provided
+2024-11-24 19:11:58,597 - ebanking -INFO - password provided
+2024-11-24 19:12:03,211 - ebanking -INFO - Login passed
+2024-11-24 19:12:07,626 - ebanking -INFO - user name provided
+2024-11-24 19:12:07,712 - ebanking -INFO - password provided
+2024-11-24 19:12:11,080 - ebanking -INFO - Login passed
+2024-11-24 19:12:15,522 - ebanking -INFO - user name provided
+2024-11-24 19:12:15,615 - ebanking -INFO - password provided
+2024-11-24 19:12:18,966 - ebanking -INFO - Login passed
+2024-11-24 19:12:23,245 - ebanking -INFO - user name provided
+2024-11-24 19:12:23,343 - ebanking -INFO - password provided
+2024-11-24 19:12:27,106 - ebanking -INFO - Login passed
+2024-11-24 19:12:31,358 - ebanking -INFO - user name provided
+2024-11-24 19:12:31,473 - ebanking -INFO - password provided
+2024-11-24 19:12:34,815 - ebanking -INFO - Login passed
