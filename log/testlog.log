@@ -345,3 +345,144 @@
 2024-10-19 18:28:40,234 - ebanking -INFO - Entered username
 2024-10-19 18:28:40,390 - ebanking -INFO - Entered password
 2024-10-19 18:28:41,367 - ebanking -INFO - Login test passed
+2024-11-24 18:19:41,187 - ebanking -INFO - URL is opened
+2024-11-24 18:19:41,412 - ebanking -INFO - Entered username
+2024-11-24 18:19:41,537 - ebanking -INFO - Entered password
+2024-11-24 18:19:42,422 - ebanking -INFO - Login test passed
+2024-11-24 18:20:06,725 - ebanking -INFO - URL is opened
+2024-11-24 18:20:08,295 - ebanking -INFO - Entered username
+2024-11-24 18:20:08,434 - ebanking -INFO - Entered password
+2024-11-24 18:29:16,464 - ebanking -INFO - URL is opened
+2024-11-24 18:29:16,781 - ebanking -INFO - Entered username
+2024-11-24 18:29:17,739 - ebanking -INFO - Entered password
+2024-11-24 18:29:18,965 - ebanking -INFO - Login test passed
+2024-11-24 18:31:17,518 - ebanking -INFO - URL is opened
+2024-11-24 18:31:17,818 - ebanking -INFO - Entered username
+2024-11-24 18:31:17,966 - ebanking -INFO - Entered password
+2024-11-24 18:31:18,820 - ebanking -INFO - Login test passed
+2024-11-24 18:33:13,775 - ebanking -INFO - URL is opened
+2024-11-24 18:33:14,051 - ebanking -INFO - Entered username
+2024-11-24 18:33:14,183 - ebanking -INFO - Entered password
+2024-11-24 18:33:15,055 - ebanking -INFO - Login test passed
+2024-11-24 18:34:09,448 - ebanking -INFO - URL is opened
+2024-11-24 18:34:09,675 - ebanking -INFO - Entered username
+2024-11-24 18:34:09,816 - ebanking -INFO - Entered password
+2024-11-24 18:34:10,613 - ebanking -INFO - Login test passed
+2024-11-24 18:35:03,181 - ebanking -INFO - URL is opened
+2024-11-24 18:35:03,409 - ebanking -INFO - Entered username
+2024-11-24 18:35:03,617 - ebanking -INFO - Entered password
+2024-11-24 18:35:04,552 - ebanking -INFO - Login test passed
+2024-11-24 18:36:07,366 - ebanking -INFO - URL is opened
+2024-11-24 18:36:07,578 - ebanking -INFO - Entered username
+2024-11-24 18:36:07,764 - ebanking -INFO - Entered password
+2024-11-24 18:36:09,319 - ebanking -INFO - Login test passed
+2024-11-24 18:36:25,763 - ebanking -INFO - user name provided
+2024-11-24 18:36:25,952 - ebanking -INFO - password provided
+2024-11-24 18:36:36,124 - ebanking -INFO - Login passed
+2024-11-24 18:36:43,177 - ebanking -INFO - user name provided
+2024-11-24 18:36:43,267 - ebanking -INFO - password provided
+2024-11-24 18:36:46,362 - ebanking -INFO - Login passed
+2024-11-24 18:36:51,087 - ebanking -INFO - user name provided
+2024-11-24 18:36:51,184 - ebanking -INFO - password provided
+2024-11-24 18:36:54,538 - ebanking -INFO - Login passed
+2024-11-24 18:36:59,172 - ebanking -INFO - user name provided
+2024-11-24 18:36:59,339 - ebanking -INFO - password provided
+2024-11-24 18:37:02,694 - ebanking -INFO - Login passed
+2024-11-24 18:37:07,314 - ebanking -INFO - user name provided
+2024-11-24 18:37:07,401 - ebanking -INFO - password provided
+2024-11-24 18:37:10,482 - ebanking -INFO - Login passed
+2024-11-24 18:37:45,446 - ebanking -INFO - URL is opened
+2024-11-24 18:37:46,840 - ebanking -INFO - Entered username
+2024-11-24 18:37:46,974 - ebanking -INFO - Entered password
+2024-11-24 18:37:47,814 - ebanking -INFO - Login test passed
+2024-11-24 18:37:52,966 - ebanking -INFO - user name provided
+2024-11-24 18:37:53,096 - ebanking -INFO - password provided
+2024-11-24 18:37:57,001 - ebanking -INFO - Login passed
+2024-11-24 18:38:01,393 - ebanking -INFO - user name provided
+2024-11-24 18:38:01,488 - ebanking -INFO - password provided
+2024-11-24 18:38:04,835 - ebanking -INFO - Login passed
+2024-11-24 18:38:11,022 - ebanking -INFO - user name provided
+2024-11-24 18:38:11,115 - ebanking -INFO - password provided
+2024-11-24 18:38:14,799 - ebanking -INFO - Login passed
+2024-11-24 18:38:19,478 - ebanking -INFO - user name provided
+2024-11-24 18:38:19,573 - ebanking -INFO - password provided
+2024-11-24 18:38:22,928 - ebanking -INFO - Login passed
+2024-11-24 18:38:28,588 - ebanking -INFO - user name provided
+2024-11-24 18:38:28,683 - ebanking -INFO - password provided
+2024-11-24 18:38:32,068 - ebanking -INFO - Login passed
+2024-11-24 18:46:48,998 - ebanking -INFO - URL is opened
+2024-11-24 18:46:49,301 - ebanking -INFO - Entered username
+2024-11-24 18:46:49,441 - ebanking -INFO - Entered password
+2024-11-24 18:46:58,059 - ebanking -INFO - user name provided
+2024-11-24 18:46:58,197 - ebanking -INFO - password provided
+2024-11-24 18:47:02,274 - ebanking -INFO - Login passed
+2024-11-24 18:47:06,849 - ebanking -INFO - user name provided
+2024-11-24 18:47:06,947 - ebanking -INFO - password provided
+2024-11-24 18:47:10,092 - ebanking -INFO - Login passed
+2024-11-24 18:47:14,835 - ebanking -INFO - user name provided
+2024-11-24 18:47:14,921 - ebanking -INFO - password provided
+2024-11-24 18:47:18,419 - ebanking -INFO - Login passed
+2024-11-24 18:47:22,748 - ebanking -INFO - user name provided
+2024-11-24 18:47:22,832 - ebanking -INFO - password provided
+2024-11-24 18:47:25,939 - ebanking -INFO - Login passed
+2024-11-24 18:47:30,898 - ebanking -INFO - user name provided
+2024-11-24 18:47:30,977 - ebanking -INFO - password provided
+2024-11-24 18:47:34,356 - ebanking -INFO - Login passed
+2024-11-24 18:55:32,967 - ebanking -INFO - URL is opened
+2024-11-24 18:55:35,069 - ebanking -INFO - Entered username
+2024-11-24 18:55:35,205 - ebanking -INFO - Entered password
+2024-11-24 18:55:36,053 - ebanking -INFO - Login test passed
+2024-11-24 18:55:40,468 - ebanking -INFO - user name provided
+2024-11-24 18:55:40,642 - ebanking -INFO - password provided
+2024-11-24 18:55:44,498 - ebanking -INFO - Login passed
+2024-11-24 18:55:48,848 - ebanking -INFO - user name provided
+2024-11-24 18:55:48,942 - ebanking -INFO - password provided
+2024-11-24 18:55:52,303 - ebanking -INFO - Login passed
+2024-11-24 18:55:56,639 - ebanking -INFO - user name provided
+2024-11-24 18:55:56,738 - ebanking -INFO - password provided
+2024-11-24 18:56:00,113 - ebanking -INFO - Login passed
+2024-11-24 18:56:04,381 - ebanking -INFO - user name provided
+2024-11-24 18:56:04,472 - ebanking -INFO - password provided
+2024-11-24 18:56:07,573 - ebanking -INFO - Login passed
+2024-11-24 18:56:11,862 - ebanking -INFO - user name provided
+2024-11-24 18:56:11,986 - ebanking -INFO - password provided
+2024-11-24 18:56:16,207 - ebanking -INFO - Login passed
+2024-11-24 18:57:14,504 - ebanking -INFO - URL is opened
+2024-11-24 18:57:14,722 - ebanking -INFO - Entered username
+2024-11-24 18:57:14,858 - ebanking -INFO - Entered password
+2024-11-24 18:57:15,740 - ebanking -INFO - Login test passed
+2024-11-24 18:57:21,266 - ebanking -INFO - user name provided
+2024-11-24 18:57:21,402 - ebanking -INFO - password provided
+2024-11-24 18:57:26,029 - ebanking -INFO - Login passed
+2024-11-24 18:57:30,415 - ebanking -INFO - user name provided
+2024-11-24 18:57:30,502 - ebanking -INFO - password provided
+2024-11-24 18:57:33,852 - ebanking -INFO - Login passed
+2024-11-24 18:57:38,128 - ebanking -INFO - user name provided
+2024-11-24 18:57:38,226 - ebanking -INFO - password provided
+2024-11-24 18:57:41,312 - ebanking -INFO - Login passed
+2024-11-24 18:57:45,656 - ebanking -INFO - user name provided
+2024-11-24 18:57:45,758 - ebanking -INFO - password provided
+2024-11-24 18:57:49,121 - ebanking -INFO - Login passed
+2024-11-24 18:57:53,431 - ebanking -INFO - user name provided
+2024-11-24 18:57:53,553 - ebanking -INFO - password provided
+2024-11-24 18:57:56,883 - ebanking -INFO - Login passed
+2024-11-24 19:02:11,769 - ebanking -INFO - URL is opened
+2024-11-24 19:02:12,027 - ebanking -INFO - Entered username
+2024-11-24 19:02:12,147 - ebanking -INFO - Entered password
+2024-11-24 19:02:12,993 - ebanking -INFO - Login test passed
+2024-11-24 19:02:18,735 - ebanking -INFO - user name provided
+2024-11-24 19:02:18,875 - ebanking -INFO - password provided
+2024-11-24 19:02:22,724 - ebanking -INFO - Login passed
+2024-11-24 19:02:27,017 - ebanking -INFO - user name provided
+2024-11-24 19:02:27,100 - ebanking -INFO - password provided
+2024-11-24 19:02:30,409 - ebanking -INFO - Login passed
+2024-11-24 19:02:34,630 - ebanking -INFO - user name provided
+2024-11-24 19:02:34,706 - ebanking -INFO - password provided
+2024-11-24 19:02:38,038 - ebanking -INFO - Login passed
+2024-11-24 19:02:42,523 - ebanking -INFO - user name provided
+2024-11-24 19:02:42,608 - ebanking -INFO - password provided
+2024-11-24 19:02:45,964 - ebanking -INFO - Login passed
+2024-11-24 19:02:50,291 - ebanking -INFO - user name provided
+2024-11-24 19:02:50,389 - ebanking -INFO - password provided
+2024-11-24 19:02:53,488 - ebanking -INFO - Login passed
+2024-11-24 19:07:17,619 - ebanking -INFO - URL is opened

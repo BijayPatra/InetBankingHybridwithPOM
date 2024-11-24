@@ -2,6 +2,7 @@ package com.inetbanking.testCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -39,30 +40,30 @@ public class BaseClass {
 		
 		if(br.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+			//System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
-			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		}
 		else if(br.equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver",readconfig.getFirefoxPath());
+			//System.setProperty("webdriver.gecko.driver",readconfig.getFirefoxPath());
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
-			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		}
 		else if(br.equals("ie"))
 		{
-			System.setProperty("webdriver.ie.driver",readconfig.getIEPath());
+			//System.setProperty("webdriver.ie.driver",readconfig.getIEPath());
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
-			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		}
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get(baseURL);
 	}
 	
