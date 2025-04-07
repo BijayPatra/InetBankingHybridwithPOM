@@ -39,8 +39,10 @@ public class Reporting extends TestListenerAdapter
 		
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host name","localhost");
+		extent.setSystemInfo("OS Name",System.getProperty("os.name"));
 		extent.setSystemInfo("Environemnt","QA");
 		extent.setSystemInfo("user","Bijay");
+		extent.setSystemInfo("Java Version",System.getProperty("java.version"));
 		
 		htmlReporter.config().setDocumentTitle("InetBanking Test Project"); // Tile of report
 		htmlReporter.config().setReportName("Functional Test Automation Report"); // name of the report
@@ -48,18 +50,18 @@ public class Reporting extends TestListenerAdapter
 		htmlReporter.config().setTheme(Theme.DARK);
 	}
 	
-	public void onTestSuccess(ITestResult tr)
+	public void onTestSuccess(ITestResult result)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in the report
-		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
+		logger=extent.createTest(result.getName()); // create new entry in the report
+		logger.log(Status.PASS,MarkupHelper.createLabel(result.getName(),ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
 	}
 	
-	public void onTestFailure(ITestResult tr)
+	public void onTestFailure(ITestResult result)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in the report
-		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
+		logger=extent.createTest(result.getName()); // create new entry in the report
+		logger.log(Status.FAIL,MarkupHelper.createLabel(result.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
 		
-		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
+		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+".png";
 		
 		File f = new File(screenshotPath); 
 		
@@ -76,10 +78,10 @@ public class Reporting extends TestListenerAdapter
 		
 	}
 	
-	public void onTestSkipped(ITestResult tr)
+	public void onTestSkipped(ITestResult result)
 	{
-		logger=extent.createTest(tr.getName()); // create new entry in th report
-		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
+		logger=extent.createTest(result.getName()); // create new entry in th report
+		logger.log(Status.SKIP,MarkupHelper.createLabel(result.getName(),ExtentColor.ORANGE));
 	}
 	
 	public void onFinish(ITestContext testContext)

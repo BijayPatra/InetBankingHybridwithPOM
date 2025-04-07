@@ -1,5 +1,6 @@
 package com.inetbanking.pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -53,11 +54,9 @@ public class LoginPage {
 	
 	public void clickLogout()
 	{
-		lnkLogout.click();
+		JavascriptExecutor js=(JavascriptExecutor)ldriver;
+		js.executeScript("arguments[0].click()",lnkLogout);
 	}
-	
-	
-	
 }
 
 
