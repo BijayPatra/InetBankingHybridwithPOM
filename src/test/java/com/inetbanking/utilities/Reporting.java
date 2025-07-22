@@ -36,18 +36,21 @@ public class Reporting extends TestListenerAdapter
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
 		
 		extent=new ExtentReports();
-		
 		extent.attachReporter(htmlReporter);
+		
+		
+		htmlReporter.config().setDocumentTitle("InetBanking Test Project"); // Tile of report
+		htmlReporter.config().setReportName("Functional Test Automation Report"); // name of the report
+		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
+		htmlReporter.config().setTheme(Theme.DARK);
+		
 		extent.setSystemInfo("Host name","localhost");
 		extent.setSystemInfo("OS Name",System.getProperty("os.name"));
 		extent.setSystemInfo("Environemnt","QA");
 		extent.setSystemInfo("user","Bijay");
 		extent.setSystemInfo("Java Version",System.getProperty("java.version"));
 		
-		htmlReporter.config().setDocumentTitle("InetBanking Test Project"); // Tile of report
-		htmlReporter.config().setReportName("Functional Test Automation Report"); // name of the report
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
-		htmlReporter.config().setTheme(Theme.DARK);
+		
 	}
 	
 	public void onTestSuccess(ITestResult result)
